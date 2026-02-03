@@ -7,9 +7,9 @@ func main() {
 	var conferenceName = "Go Conference"
 	//constants - value cannot change
 	const conferenceTickets = 50
-	var remainingTickets = 50
+	var remainingTickets = 30
 
-	fmt.Println("Welcome to", conferenceName, "booking application")
+	fmt.Printf("Welcome to %v booking applicatio\n", conferenceName)
 	fmt.Println("Get your tickets here to attend!")
-	fmt.Println("We have", conferenceTickets, "tickets! Currenlty", remainingTickets, "tickets left available now!!")
+	fmt.Printf("We have %v tickets! Currenlty %v tickets left available now!!", conferenceTickets, remainingTickets)
 }
